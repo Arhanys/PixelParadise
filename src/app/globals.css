@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bungee&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    /* Colors */
+    --color-background-main: #0D0319;
+    --color-background-secondary: #190033;
+    --color-text-primary: #E7DAF6;
+    --color-primary: #9146FF;
+    --color-secondary: #FF4FD8;
+    /* Fonts */
+    --font-bungee: 'Bungee', cursive;
+    --font-barlow-condensed: 'Barlow Condensed', sans-serif;
+    /* Others */
+    --leading-text: 1.5;
+    --radius-custom: 6px;
+    /* Overrides */
+    --text-base: 1.25rem; /* 20px */
+    --text-lg: 2.25rem; /* 36px */
+    --text-xl: 2.625rem; /* 42px */
+}
